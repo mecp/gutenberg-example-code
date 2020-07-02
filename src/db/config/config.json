@@ -1,0 +1,50 @@
+{
+  "development": {
+    "repositoryMode": true,
+    "database": "gutenberg-ebooks",
+    "dialect": "postgres",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "username": "postgres",
+    "password": "docker",
+    "define": {
+      "freezeTableName": true
+    },
+    "sync": {
+      "schema": "public"
+    },
+    "logging": false
+  },
+  "test": {
+    "repositoryMode": true,
+    "database": "gutenberg-ebooks",
+    "dialect": "postgres",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "username": "postgres",
+    "password": "docker",
+    "define": {
+      "freezeTableName": true
+    },
+    "sync": {
+      "schema": "public"
+    },
+    "logging": false
+  },
+  "production": {
+    "repositoryMode": true,
+    "database": "gutenberg-ebooks",
+    "dialect": "postgres",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "username": "postgres",
+    "password": "docker",
+    "define": {
+      "freezeTableName": true
+    },
+    "sync": {
+      "schema": "public"
+    },
+    "logging": false
+  }
+}
